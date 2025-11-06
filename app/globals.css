@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: radial-gradient(circle at top, rgba(31, 41, 55, 0.8), #0f172a 55%);
+  color: #f8fafc;
+}
+
+.aurora-text {
+  background: linear-gradient(120deg, #38bdf8, #a855f7, #f97316);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
